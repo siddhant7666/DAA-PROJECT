@@ -1,0 +1,171 @@
+.dark-background {
+    background-color: #000000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hero {
+    color: rgb(27, 200, 8);
+    font-family: 'Arial', sans-serif;
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.h2{
+    color: rgb(27, 200, 8);
+    font-family: 'Arial', sans-serif;
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.h3{
+    color: rgb(27, 200, 8);
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.text-color {
+    color: #fc0000;
+}
+
+body {
+    background-color: #000000;
+}
+
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item {
+    background: #c80808;
+    border: 1pt solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input-panel {
+    margin-top: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#sorting {
+    margin-bottom: 50px;
+    transform: rotate(180deg) scaleX(-1); 
+}
+
+.range-input {
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    align-items: center;
+    border-radius: 10px;
+    line-height: 50px;
+    display: flex;
+    vertical-align: middle;
+    height: 50px;
+}
+.range-input input {
+   
+    width: 200px;
+    height: 2px;
+    background-color: #ff0000;
+
+    position: absolute;
+    top: 50%;
+}
+.range-input input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fffcfc;
+    border: 2px solid rgb(6, 108, 13);
+    border-radius: 50%;
+    outline: none;
+}
+.range-input input::-webkit-slider-thumb:hover {
+    background-color: rgb(2, 225, 17);
+}
+
+.range-input .label{
+    color: white;
+    font-weight:600;
+    display: flex; 
+    height: 35px; 
+    line-height: 35px; 
+    margin: auto;
+}
+
+/* Add these styles for the new sections */
+.page-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.new-table {
+    width: 45%; /* Adjust the width as needed */
+}
+
+.data-table {
+    width: 100%;
+    color: #fff;
+    border-collapse: collapse;
+    border: 1px solid #555; /* Border color for the table */
+}
+
+.data-table th, .data-table td {
+    padding: 10px;
+    border: 1px solid #555; /* Border color for the table cells */
+}
+
+.data-table th {
+    background-color: #333; /* Header background color */
+}
+
+.data-table th, .data-table td {
+    text-align: center;
+}
+
+.submitted-to {
+    width: 45%; /* Adjust the width as needed */
+    text-align: right;
+}
+
+.submitted-to p {
+    color: #ccc;
+    font-size: 3.2rem;
+}
